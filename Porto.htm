@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Karakter set dan pengaturan viewport untuk memastikan halaman ini ditampilkan dengan benar di semua perangkat -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Sederhana</title>
+    
+    <!-- Menghubungkan ke font eksternal dari Google Fonts untuk digunakan di halaman -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Gaya CSS untuk mengatur tampilan halaman -->
+    <style>
+        /* Mengatur warna latar belakang, font, dan padding dasar halaman */
+        body {
+            background-color: ghostwhite;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Mengatur gaya untuk judul utama halaman (h1) */
+        h1 {
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            color: #007BFF;
+            font-size: 3em;
+            margin-bottom: 40px;
+        }
+
+        /* Mengatur layout untuk bagian profil yang mencakup foto dan nama */
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        /* Mengatur tampilan gambar profil */
+        .profile img {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            width: 150px;
+            height: 200px;
+        }
+
+        /* Mengatur tampilan untuk nama di bagian profil */
+        .profile h2 {
+            font-family: 'Raleway', sans-serif;
+            color: #007BFF;
+            font-size: 2.5em;
+        }
+
+        /* Mengatur margin bawah untuk setiap bagian agar terpisah*/
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Mengatur gaya untuk judul bagian (h3) */
+        h3 {
+            font-family: 'Raleway', sans-serif;
+            color: #007BFF;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        /* Mengatur font paragraf */
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Mengatur garis pemisah antar bagian */
+        hr {
+            border: 1px solid #ccc;
+            margin: 40px 0;
+        }
+
+        /* Gaya khusus untuk bagian kontak dengan sedikit perbedaan dari paragraf biasa */
+        .contact {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        /* Gaya untuk tautan di bagian kontak agar terlihat seperti link */
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        /* Menambahkan efek ketika tautan di bagian kontak dihover oleh mouse */
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Judul utama halaman -->
+    <h1>Portofolio</h1>
+
+    <!-- Bagian profil: menampilkan foto dan nama -->
+    <div class="profile">
+        <!-- Gambar profil, diambil dari direktori yang sesuai -->
+        <img src="Foto/M. Abizzar Gamadrian Jpg.jpg" alt="Foto Abi">
+        <!-- Nama yang ditampilkan di sebelah gambar -->
+        <h2>M. Abizzar Gamadrian</h2>
+    </div>
+
+    <!-- Bagian perkenalan singkat -->
+    <section>
+        <h3>Perkenalan Singkat</h3>
+        <p>Halo semuanya, saya M. Abizzar Gamadrian, saya adalah mahasiswa ITB angkatan 2023 yang saat ini berada di jurusan Teknik Informatika di Kampus Jatinangor</p>
+    </section>
+
+    <hr> <!-- Garis pemisah -->
+
+    <!-- Bagian penjelasan minat dan bakat -->
+    <section>
+        <h3>Minat dan Bakat</h3>
+        <p>Minat saya saat ini adalah untuk menjadi Software-Engineer, untuk bakat saya sendiri memiliki bakat didalam bermain game, dimana saya mudah untuk
+            belajar didalam game apapun
+        </p>
+    </section>
+
+    <hr> <!-- Garis pemisah -->
+
+    <!-- Bagian penjelasan proyek yang pernah dikerjakan -->
+    <section>
+        <h3>Proyek yang Pernah Dikerjakan</h3>
+        <p>Beberapa proyek yang sudah saya lakukan antara lain Kalkulator Sederhana, Proyek Game Conditional, lalu saya juga mengerjakan Game Pokedex sebagai tugas besar
+        </p>
+    </section>
+
+    <hr> <!-- Garis pemisah -->
+
+    <!-- Bagian penjelasan pencapaian yang pernah diraih -->
+    <section>
+        <h3>Pencapaian yang Pernah Diraih</h3>
+        <p>Saya telah mencapai beberapa hal, termasuk menyelesaikan beberapa proyek besar di bidang pengembangan game dan analisis data.</p>
+    </section>
+
+    <hr> <!-- Garis pemisah -->
+
+    <!-- Bagian penjelasan kontak diri -->
+    <section>
+        <h3>Kontak Diri</h3>
+        <!-- Kontak yang ditampilkan sebagai tautan -->
+        <p class="contact">
+            Email: <a href="mailto:abizzar.gamadrian@gmail.com">abizzar.gamadrian@gmail.com</a><br>
+            LinkedIn: <a href="https://www.linkedin.com/in/m-abizzar-gamadrian-a8a9042a5/" target="_blank">https://www.linkedin.com/in/m-abizzar-gamadrian-a8a9042a5/</a><br>
+        </p>
+    </section>
+
+</body>
+</html>
